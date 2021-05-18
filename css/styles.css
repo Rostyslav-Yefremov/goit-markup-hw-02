@@ -1,11 +1,99 @@
+/* Универсальный селектор */
 * {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: #fff;
+/* Переменные */
+:root {
+  --pretty-color: #2196f3;
+  --while-color: ;
+  --main-font: 'Raleway', sans-serif;
+  --accent-font: 'Roboto', sans-serif;
 }
 
-.container {
-  background-color: #f5f4fa;
+/* Стили хэдэра */
+.header {
+  background: #ffffff;
+}
+.title {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+  background-color: #2f303a;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.media-list {
+  font-family: var(--accent-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.nav-list a:hover {
+  color: var(--pretty-color);
+}
+
+.media-list a:hover {
+  color: var(--pretty-color);
+}
+
+/* селектор тега */
+body {
+  font-family: var(--accent-font);
+}
+
+/* Применится ко всем ссылкам на странице */
+a {
+  text-decoration: none;
+}
+
+/* наследуй цвет шрифта от родителя */
+a {
+  color: inherit;
+}
+/* Логотип */
+
+.logo {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--pretty-color);
+}
+
+.logotype {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: black;
+}
+
+/* убрали маркеры у списка */
+ul {
+  list-style: none;
 }
