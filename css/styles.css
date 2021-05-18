@@ -5,11 +5,11 @@ body {
 }
 
 /* Универсальный селектор */
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 /* Стили хэдэра */
 .page-header {
