@@ -1,8 +1,27 @@
+/* селектор тега */
+body {
+  background-color: #ffffff;
+  font-family: var(--accent-font);
+}
+
 /* Универсальный селектор */
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+} */
+
+/* Стили хэдэра */
+.page-header {
+  background: #ffffff;
+}
+
+/* Навигация */
+.site-nav a:hover,
+.contact-nav a:hover,
+.site-nav a:focus,
+.contact-nav a:focus {
+  color: var(--pretty-color);
 }
 
 /* Переменные */
@@ -13,10 +32,6 @@
   --accent-font: 'Roboto', sans-serif;
 }
 
-/* Стили хэдэра */
-.header {
-  background: #ffffff;
-}
 .title {
   font-family: var(--accent-font);
   font-style: normal;
@@ -50,23 +65,16 @@
   color: #757575;
 }
 
-.nav-list a:hover {
-  color: var(--pretty-color);
-}
-
-.media-list a:hover {
-  color: var(--pretty-color);
-}
+/* Кнопка на секции герой*/
 
 .button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-
-/* селектор тега */
-body {
-  font-family: var(--accent-font);
 }
 
 /* Применится ко всем ссылкам на странице */
