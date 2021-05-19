@@ -1,15 +1,31 @@
 /* селектор тега */
 body {
   background-color: #ffffff;
-  font-family: var(--accent-font);
+  color: #757575;
+  /* font-family: var(--accent-font); */
 }
 
+/* Основной цвет заголовков*/
+/* color: #212121; */
+
+/* Цвет текста (также и основной) */
+/* color: #757575; */
+
+/* Акцентный цвет */
+/* color: #2196F3;*/
+
+/* Белый цвет */
+/* color: #FFFFFF */
+
+/* Вторичный цвет */
+/* color: rgba(255, 255, 255, 0.6); */
+
 /* Универсальный селектор */
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Стили хэдэра */
 .page-header {
