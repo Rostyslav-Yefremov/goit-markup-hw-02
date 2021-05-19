@@ -16,11 +16,30 @@ body {
   background: #ffffff;
 }
 
+.contact-nav {
+  color: #757575;
+}
+
 /* Навигация */
-.site-nav a:hover,
-.contact-nav a:hover,
-.site-nav a:focus,
-.contact-nav a:focus {
+.link-nav:hover,
+.link-nav:focus,
+.link-nav:active {
+  color: var(--pretty-color);
+}
+
+address {
+  font-style: normal;
+  color: #fff;
+}
+
+.text-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Footer navigacion */
+.link-nav-footer:hover,
+.link-nav-footer:focus,
+.link-nav-footer:active {
   color: var(--pretty-color);
 }
 
@@ -105,6 +124,32 @@ a {
   font-size: 26px;
   line-height: 31px;
   color: black;
+}
+.logotype1 {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #fff;
+}
+
+/* Подвал */
+
+/* .footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+} */
+
+.container-box-footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
 }
 
 /* убрали маркеры у списка */
