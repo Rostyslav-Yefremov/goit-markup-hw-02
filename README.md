@@ -19,3 +19,19 @@
    цвета, 3 - оформление текста, 4 - декоративный элемент
 9. .list { list-style:none } - стили по умолчанию обнулять лучше так, в
    дальнейшем глобальные стили не приветствуются -->
+
+Вопрос по контейнерам
+
+маргинам и падингам
+
+цвет, размеры ,ховеры
+
+<!-- вариант для лого <li>
+<!-- Logotype -->
+
+            <a href="#" class="logo">
+                <span class="logoweb">Web</span>Studio
+            </a>
+
+.logo { font-family: var(--logo-font); font-weight: 700; font-size: 26px;
+line-height: 1.1923; letter-spacing: 0.03em; } .logoweb { color: #2196f3; }

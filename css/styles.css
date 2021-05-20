@@ -43,7 +43,7 @@ body {
   color: var(--pretty-color);
 }
 
-address {
+.adress-list {
   font-style: normal;
   color: #fff;
 }
@@ -110,6 +110,12 @@ address {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: #ffffff;
+  border: none;
+}
+
+.button:hover {
+  color: var(--while-color);
 }
 
 /* Применится ко всем ссылкам на странице */
