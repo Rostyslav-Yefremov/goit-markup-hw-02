@@ -16,37 +16,39 @@ body {
   background-color: var(--white-color);
   color: var(--title-color);
   font-family: var(--main-font);
+  font-style: normal;
 }
 
-/* Основной цвет заголовков*/
-/* color: #212121; */
-
-/* Цвет текста (также и основной) */
-/* color: #757575; */
-
-/* Акцентный цвет */
-/* color: #2196F3;*/
-
-/* Белый цвет */
-/* color: #FFFFFF */
-
-/* Вторичный цвет */
-/* color: rgba(255, 255, 255, 0.6); */
-
 /* Универсальный селектор */
-/* * {
+* {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+  /* margin: 0;
+  padding: 0; */
+}
 
-/* Стили хэдэра */
+/* ХЭДЭР */
 .page-header {
   background: #ffffff;
 }
 
+.nav-list {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
 .contact-nav {
-  color: #757575;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* Навигация */
@@ -57,11 +59,22 @@ body {
 }
 
 .adress-list {
+  font-family: var(--main-font);
   font-style: normal;
-  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 
-.text-footer {
+.contact-footer {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -72,6 +85,14 @@ body {
   color: var(--accent-color);
 }
 
+.hero {
+  /* width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px; */
+  background-color: var(--hero-color);
+}
+
 .title-hero {
   font-family: var(--main-font);
   font-style: normal;
@@ -79,30 +100,9 @@ body {
   font-size: 44px;
   line-height: 1.363;
   color: var(--white-color);
-  background-color: var(--hero-color);
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.nav-list {
-  font-family: var(--accent-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-.media-list {
-  font-family: var(--accent-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
 }
 
 /* Кнопка на секции герой*/
@@ -132,6 +132,82 @@ body {
 .button:active {
   color: var(--white-color);
   background-color: var(--hover-button-color);
+}
+
+/* Секция наши преимущества (заголовки и текст) в Index */
+
+.invisible {
+  display: none;
+}
+
+.title-section {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.title-list {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.text-list {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.title-our-team {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.text-our-team {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* Секция наши проекты (заголовки и текст) в Portfolio pages */
+
+.title-portfolio {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.text-portfolio {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 
 /* Применится ко всем ссылкам на странице */
