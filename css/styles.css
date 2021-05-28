@@ -5,13 +5,14 @@
   --title-color: #212121;
   --text-color: #757575;
   --hero-color: #2f303a;
+  --black-color: #000000;
   --hover-button-color: #188ce8;
   --portfolio-button-color: #f5f4fa;
   --logo-font: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   --main-font: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
 
-/* селектор тега */
+/* Глобальные стили */
 body {
   background-color: var(--white-color);
   color: var(--title-color);
@@ -19,36 +20,68 @@ body {
   font-style: normal;
 }
 
-/* Универсальный селектор */
-* {
-  box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+/* Применится ко всем ссылкам на странице */
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* ХЭДЭР */
-.page-header {
+/* Убрали маркеры у списка */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Хедер */
+.page-header .container {
   background-color: var(--white-color);
+  width: 1200px;
+  flex-direction: row;
+}
+
+/* .nav-header {
+  display: flex;
+} */
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid green;
+}
+
+section {
+  padding-top: 94px;
 }
 
 .nav-list {
   font-family: var(--main-font);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  outline: 2px solid tomato;
 }
 
 .contact-nav {
   font-family: var(--main-font);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  outline: 2px solid tomato;
 }
 
 /* Навигация */
@@ -62,9 +95,8 @@ body {
   color: var(--accent-color);
 }
 
-.adress-list {
+.address-list {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -72,15 +104,13 @@ body {
 }
 
 .contact-footer {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Footer navigacion */
+/* Стили для футера */
 .link-nav-footer:hover,
 .link-nav-footer:focus,
 .link-nav-footer:active {
@@ -88,23 +118,24 @@ body {
 }
 
 .hero {
-  /* width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px; */
   background-color: var(--hero-color);
+  outline: 2px solid tomato;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .title-hero {
+  margin-bottom: 30px;
+  margin-top: 0;
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1.364;
   color: var(--white-color);
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Кнопка на секции герой*/
@@ -241,12 +272,6 @@ body {
   color: var(--text-color);
 }
 
-/* Применится ко всем ссылкам на странице */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* Логотип */
 
 .logo {
@@ -255,7 +280,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--black-color);
 }
 
 .logostudio {
@@ -278,25 +303,6 @@ a {
   color: var(--white-color);
 }
 
-/* Подвал */
-
-/* .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
-  background: #2f303a;
-} */
-
-.container-box-footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
-  background: #2f303a;
-}
-
-/* убрали маркеры у списка */
-.list {
-  list-style: none;
+.footer {
+  background-color: var(--hero-color);
 }

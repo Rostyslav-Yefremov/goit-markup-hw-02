@@ -26,12 +26,7 @@
 
 цвет, размеры ,ховеры
 
-<!-- вариант для лого <li>
-<!-- Logotype -->
+Вопросы:
 
-            <a href="#" class="logo">
-                <span class="logoweb">Web</span>Studio
-            </a>
-
-.logo { font-family: var(--logo-font); font-weight: 700; font-size: 26px;
-line-height: 1.1923; letter-spacing: 0.03em; } .logoweb { color: #2196f3; }
+1. Тулзы - гид
+2. Классы - допкассы, наследование
